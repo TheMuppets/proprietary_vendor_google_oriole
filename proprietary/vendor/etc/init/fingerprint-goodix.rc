@@ -1,0 +1,9 @@
+service vendor.fingerprint-goodix /vendor/bin/hw/android.hardware.biometrics.fingerprint-service.goodix
+    class late_start
+    user system
+    group system input
+    priority -20
+
+on early-boot
+    chown root system /sys/module/trusty_virtio/parameters/use_high_wq
+    chown root system /sys/module/trusty_core/parameters/use_high_wq

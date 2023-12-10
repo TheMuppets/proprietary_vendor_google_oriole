@@ -1,0 +1,72 @@
+#!/system/bin/sh
+#
+# Copyright 2020 Google LLC. All Rights Reserved.
+#
+# Raven/Oriole Calibration Sub-Script.
+#
+# Contains R4/O6-specific sensor information for sensor_cal.
+
+# Sensors supported for calibration.
+SUPPORTED_SENSORS="accel als baro gyro imu_temp fusion_mag prox rls"
+
+#######################################
+# Converts a sensor name to its path.
+# Globals:
+#   CAL_PARAMS
+#   SENSOR
+#   SENSOR_NAME
+#   SENSOR_PATH
+# Arguments:
+#   None
+# Outputs:
+#   Saves the sensor path in SENSOR_PATH.
+#   Logging based on set VERBOSITY level.
+#######################################
+sensor_cal::sensor_to_path() {
+  if [[ "${SENSOR}" == "accel" ]]; then
+    SENSOR_PATH="/fac_cal/dev/lsm6dsr/0/accel"
+    SENSOR_NAME="lsm6dsr"
+  elif [[ "${SENSOR}" == "als" ]]; then
+    SENSOR_PATH="/fac_cal/dev/tmd3719/0/als"
+    SENSOR_NAME="tmd3719"
+    CAL_PARAMS=" \
+      blue_gain8_ratio blue_gain9_ratio blue_gain10_ratio \
+      clear_gain8_ratio clear_gain9_ratio clear_gain10_ratio \
+      green_gain8_ratio green_gain9_ratio green_gain10_ratio \
+      lux_scale \
+      red_gain8_ratio red_gain9_ratio red_gain10_ratio \
+      sync_delay_ns te2_delay_h"
+  elif [[ "${SENSOR}" == "baro" ]]; then
+    SENSOR_PATH="/fac_cal/dev/icp10101/0/baro"
+    SENSOR_NAME="icp10101"
+  elif [[ "${SENSOR}" == "gyro" ]]; then
+    SENSOR_PATH="/fac_cal/dev/lsm6dsr/0/gyro"
+    SENSOR_NAME="lsm6dsr"
+  elif [[ "${SENSOR}" == "imu_temp" ]]; then
+    SENSOR_PATH="/fac_cal/dev/lsm6dsr/0/temp"
+    SENSOR_NAME="lsm6dsr"
+  elif [[ "${SENSOR}" == "fusion_mag" ]]; then
+    SENSOR_PATH="/fac_cal/dev/fusion_mag/0/mag"
+    SENSOR_NAME="fusion_mag"
+    SENSOR_TYPE="mag"
+    CAL_PARAMS=" \
+       lnn mnn hnn ln0 mn0 hn0 lnp mnp hnp \
+       l0n m0n h0n l00 m00 h00 l0p m0p h0p \
+       lpn mpn hpn lp0 mp0 hp0 lpp mpp hpp \
+       last mix"
+  elif [[ "${SENSOR}" == "prox" ]]; then
+    SENSOR_PATH="/fac_cal/dev/tmd3719/0/prox"
+    SENSOR_NAME="tmd3719"
+    CAL_PARAMS=" \
+      hp_pdata0_scale hp_pdata1_scale pdata0_scale pdata1_scale \
+      hp_pdata0_offset hp_pdata1_offset vcsel_ma"
+  elif [[ "${SENSOR}" == "rls" ]]; then
+    SENSOR_PATH="/fac_cal/dev/vd6282/0/rls"
+    SENSOR_NAME="vd6282"
+  else
+    sensor_cal::ERROR "Unknown or unimplemented sensor: ${SENSOR}"
+    sensor_cal::exit_badparam
+  fi
+
+  sensor_cal::DEBUG "Registry path: ${SENSOR_PATH}"
+}
