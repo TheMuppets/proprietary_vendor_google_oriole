@@ -6,14 +6,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),oriole)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,53d949a259f1aa85bad2366efb43a48a8311c130)
-$(call add-radio-file-sha1-checked,radio/bl1.img,c50517b80defa0d70c89d6bbf935b08d1c7b3546)
-$(call add-radio-file-sha1-checked,radio/bl2.img,04330461575492dd50d44de3f7e3b8403f86e03d)
-$(call add-radio-file-sha1-checked,radio/bl31.img,f5681d90f811ed7dc17ec471f0c614ce0d183269)
-$(call add-radio-file-sha1-checked,radio/gsa.img,970a0027bfefea9a1b8938cdfd6f4cec21ac634c)
-$(call add-radio-file-sha1-checked,radio/ldfw.img,603db935dd33d2e125ef41cc75591e53e205709a)
-$(call add-radio-file-sha1-checked,radio/modem.img,fe55134dd98f8ae0d38cc8a27796c4a3a7c088d0)
-$(call add-radio-file-sha1-checked,radio/pbl.img,1fd98f27bae401fff946031a4a79e6bda2312aa3)
-$(call add-radio-file-sha1-checked,radio/tzsw.img,c6c4f4359928a297a28303a3716ac7f9fb968122)
+$(call add-radio-file-sha1-checked,radio/abl.img,46a6c80c98e9a251fe759f0fb72dfbbd4af2dec8)
+$(call add-radio-file-sha1-checked,radio/bl1.img,95645db4eb6a9eb196a6f1b8a25ab9040a663898)
+$(call add-radio-file-sha1-checked,radio/bl2.img,9a380e0953c8583feab074e45dcd5a9df03e2d6f)
+$(call add-radio-file-sha1-checked,radio/bl31.img,692c45cc68b77811c004d40c03d87e35e0397719)
+$(call add-radio-file-sha1-checked,radio/gsa.img,4306b66f2b35ee45d9d07ee0583f2bbcc9b7aa88)
+$(call add-radio-file-sha1-checked,radio/ldfw.img,ddd5f48513d9897789ca0e4823de1cc63132d1c8)
+$(call add-radio-file-sha1-checked,radio/modem.img,9cf7aba4ca589db112b3e2e19c485969eb248c09)
+$(call add-radio-file-sha1-checked,radio/pbl.img,6b5c4c38dda85a7f3410a1ac5d9c2b89eb857ccf)
+$(call add-radio-file-sha1-checked,radio/tzsw.img,23cef8e5059ef84e42210399541de23528f12e0b)
 
 endif

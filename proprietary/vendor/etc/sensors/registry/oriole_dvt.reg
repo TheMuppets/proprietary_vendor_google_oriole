@@ -38,6 +38,9 @@ orientation_transform=2 1 -3
 
 # LSM6DSR temp.
 +/dev/lsm6dsr/0/temp
++/dev/lsm6dsr/0/motion_detect
++/dev/lsm6dsr/0/stationary_detect
++/dev/lsm6dsr/0/free_fall_detect
 
 # ICP10101.
 +/dev/icp10101/0

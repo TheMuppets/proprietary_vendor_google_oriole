@@ -33,6 +33,9 @@ orientation_transform=-2 -1 3
 
 # LSM6DSR temp.
 +/dev/lsm6dsr/0/temp
++/dev/lsm6dsr/0/motion_detect
++/dev/lsm6dsr/0/stationary_detect
++/dev/lsm6dsr/0/free_fall_detect
 
 # ICP10101.
 +/dev/icp10101/0
@@ -203,7 +206,6 @@ bus_freq_hz=3800000
 i3c_freq_hz=4900000
 bus_addr=0x30
 i3c_addr=0x14
-priority=0
 
 # MMC56X3X mag.
 +/dev/mmc56x3x/0/mag
