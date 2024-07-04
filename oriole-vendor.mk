@@ -121,6 +121,13 @@ PRODUCT_PACKAGES += \
     google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service
+
+PRODUCT_PACKAGES += \
+    libdmengine_libdmengine_symlink32 \
+    libdmjavaplugin_libdmjavaplugin_symlink32 \
+    libdmengine_libdmengine_symlink64 \
+    libdmjavaplugin_libdmjavaplugin_symlink64 \
+    libhbmsvmanager_jni_libhbmsvmanager_jni_symlink64
 PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/2degrees_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/2degrees_nz.pb \
