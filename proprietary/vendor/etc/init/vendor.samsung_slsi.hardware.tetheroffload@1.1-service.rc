@@ -1,0 +1,9 @@
+service vendor.tetheroffload.hal-1-1 /vendor/bin/hw/vendor.samsung_slsi.hardware.tetheroffload@1.1-service
+    interface android.hardware.tetheroffload.config@1.0::IOffloadConfig default
+    interface android.hardware.tetheroffload.control@1.0::IOffloadControl default
+    interface android.hardware.tetheroffload.control@1.1::IOffloadControl default
+    class hal
+    oneshot
+    disabled
+    user system
+    group system radio inet

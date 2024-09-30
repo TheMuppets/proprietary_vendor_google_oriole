@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="gps.a_glonass_pos_protocol_select">6</string>
+        <string name="gps.longterm_psds_server_1">https://agnss.goog/lto2.dat</string>
+        <string name="gps.lpp_profile">2</string>
+        <string name="gps.normal_psds_server">https://agnss.goog/pad/xto/prod/rto/2/rto.dat</string>
+        <string name="gps.realtime_psds_server">https://agnss.goog/rtistatus.dat</string>
+        <string name="gps.supl_ver">0x20002</string>
+    </carrier_config>
+</carrier_config_list>
