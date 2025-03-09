@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/airbus_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airbus_fr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ais_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ais_th.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/alcom_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alcom_fi.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/altice_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/altice_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/alticeroaming_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alticeroaming_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/andorratelecom_ad.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/andorratelecom_ad.pb \
@@ -64,7 +65,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/cht_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cht_tw.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/cityfone_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cityfone_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/claro_br.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_br.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/claro_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_cl.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/claro_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_co.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/claro_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_pr.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/commonmvnxatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/commonmvnxatt_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/congstar_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/congstar_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/consumercellularatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/consumercellularatt_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/consumercellulartmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/consumercellulartmo_us.pb \
@@ -79,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/default.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/default.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/digi_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_hu.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/digi_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_my.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/digi_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_pt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/digi_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digi_ro.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/digimobil_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/digimobil_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/dish5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dish5gsa_us.pb \
@@ -97,7 +102,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/elisa1_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa1_fi.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/elisa2_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa2_fi.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/elisa_ee.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/elisa_ee.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/enetworks_gy.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/enetworks_gy.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/enreach_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/enreach_nl.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/entel_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/entel_cl.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/epic_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/epic_mt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/eplus_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/eplus_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/erate_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/erate_no.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/esn_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/esn_gb.pb \
@@ -115,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/firstnetpacific_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/firstnetpacific_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/fizz_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/fizz_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/fl1_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/fl1_li.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/foroyatele_fo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/foroyatele_fo.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/free_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_fr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/free_gp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_gp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/free_mq.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_mq.pb \
@@ -126,6 +135,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/giffgaff_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/giffgaff_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/giga_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/giga_sg.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/globe_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/globe_ph.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/gomobile_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gomobile_mt.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/grameenphone_bd.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/grameenphone_bd.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/guuk_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/guuk_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_gb.pb \
@@ -141,8 +152,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/idea_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idea_in.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/idmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idmobile_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/iliad_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/iliad_it.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/indosat_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/indosat_id.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/inland_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/inland_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/iwireless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/iwireless_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/jazz_pk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jazz_pk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/jazztel_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jazztel_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/jcommobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jcommobile_jp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/kddi5gsa_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kddi5gsa_jp.pb \
@@ -166,9 +179,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/lum_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lum_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/lyca_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lyca_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/lyca_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lyca_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/lycamobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/lycamobile_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_pt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/lycamobile_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/lycamobile_se.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/m1_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/m1_sg.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/magticom_ge.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/magticom_ge.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/manxcontract_im.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/manxcontract_im.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/manxprepaid_im.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/manxprepaid_im.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/masmovil_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/masmovil_es.pb \
@@ -180,10 +195,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mobifone_vn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobifone_vn.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mobily_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobily_sa.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/monacotelecom_mc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/monacotelecom_mc.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_co.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mucho_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mucho_ch.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mvnoconnect_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mvnoconnect_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/nema_fo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nema_fo.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/netcomgroup_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/netcomgroup_fr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nexphone_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nexphone_ch.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nextech_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nextech_us.pb \
@@ -200,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/omantel_om.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/omantel_om.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/one_me.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/one_me.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/onecall_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/onecall_no.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/only_yt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/only_yt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ooredoo_kw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ooredoo_kw.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ooredoo_qa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ooredoo_qa.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/optimera_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/optimera_us.pb \
@@ -233,11 +251,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/r_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/r_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/racc_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/racc_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rakuten_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rakuten_jp.pb \
-    vendor/google/oriole/proprietary/product/etc/CarrierSettings/reachmobileatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/reachmobileatt_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/redpocketatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpocketatt_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/redpockettmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpockettmo_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/republicwireless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/republicwireless_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rjio_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rjio_in.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/robi_bd.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/robi_bd.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogers5g_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers5g_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogers_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogerswpn_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogerswpn_ca.pb \
@@ -254,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/skinny_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skinny_nz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/skt_kr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skt_kr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sky_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_gb.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/sky_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_ie.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/skylo_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skylo_zz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smart_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smart_ph.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smartfren_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartfren_id.pb \
@@ -270,6 +289,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sprintprepaid_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sprintprepaid_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sprintwholesale_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sprintwholesale_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/spusu_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/spusu_at.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/spusu_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/spusu_ch.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/spusu_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/spusu_gb.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/spusu_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/spusu_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ssimobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ssimobile_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/starhub_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/starhub_sg.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/stc_bh.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/stc_bh.pb \
@@ -281,6 +303,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sweno_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sweno_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/swisscom_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_ch.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/swisscom_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_li.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/swisscommvno_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscommvno_ch.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/talkmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/talkmobile_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tango_lu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tango_lu.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tango_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tango_us.pb \
@@ -288,6 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tchibo_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tchibo_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tchibo_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tchibo_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tdc_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tdc_dk.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/telavox_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telavox_be.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telavox_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telavox_se.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telcel_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telcel_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telco_re.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telco_re.pb \
@@ -311,6 +335,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telenet_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenet_be.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telenor_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_dk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telenor_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_no.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/telenor_pk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_pk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telenor_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_se.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telia_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_dk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/telia_ee.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_ee.pb \
@@ -325,12 +350,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tesco_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tesco_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/test001_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/test001_zz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/three_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/three_dk.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/tigo_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tigo_co.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tim_br.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tim_br.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tim_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tim_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmobile_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmobile_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_cz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmobile_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_nl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmobile_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmobileprivate_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobileprivate_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmomvno_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmomvno_nl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tmomvno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmomvno_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tracfoneatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneatt_us.pb \
@@ -381,6 +408,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_hu.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_ie.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_in.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_is.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_is.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_nl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_nz.pb \
@@ -476,14 +504,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdmengine \
     libdmjavaplugin \
-    libedgetpu_dba.google \
     libmediaadaptor \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
     libhbmsvmanager_jni \
     VZWAPNLib \
     AppDirectedSMSService \
-    CarrierSettings_signed_49.0.645958608 \
+    CarrierSettings_signed_51.0.707712815 \
     CarrierWifi \
     ConnMO \
     DCMO \
@@ -659,27 +686,26 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.rlsservice-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.rlsservice-service-google-apex.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.security.keymint-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.citadel.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.vibrator-service.cs40l25.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator-service.cs40l25.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.weaver-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.citadel.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/aocd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/aocxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aocxd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/bipchmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bipchmgr.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/cbd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cbd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/citadeld.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/citadeld.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/com.google.edgetpu.dba-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.google.edgetpu.dba-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/com.google.edgetpu.tachyon-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.google.edgetpu.tachyon-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/dmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/google.hardware.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/google.hardware.media.c2@1.0-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.camera.set-interrupts-ownership.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.camera.set-interrupts-ownership.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/init.flood.control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.flood.control.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.modem_logging_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.modem_logging_control.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/init.shared_modem_platform_lassen.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.shared_modem_platform_lassen.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.sscoredump.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sscoredump.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.usf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.usf.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.vendor_telephony.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor_telephony.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init_dauntless.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_dauntless.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/libg3a_gabc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libg3a_gabc.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/libg3a_gaf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libg3a_gaf.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/libg3a_ghawb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libg3a_ghawb.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/pktrouter.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pktrouter.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/rfsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rfsd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/rild_exynos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild_exynos.rc \
@@ -691,15 +717,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.battery_mitigation-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.battery_mitigation-default.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.edgetpu_vendor_service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.edgetpu_vendor_service@1.0-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.google_battery-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.google_battery-default.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.modem_svc_sit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.modem_svc_sit.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.wireless_charger-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wireless_charger-default.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.google.wireless_charger.service-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wireless_charger.service-default.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.tetheroffload@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.tetheroffload@1.1-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/input_classifier_model.pb:$(TARGET_COPY_OUT_VENDOR)/etc/input_classifier_model.pb \
-    vendor/google/oriole/proprietary/vendor/etc/libg3a_standalone_gabc_rc:$(TARGET_COPY_OUT_VENDOR)/etc/libg3a_standalone_gabc_rc \
-    vendor/google/oriole/proprietary/vendor/etc/libg3a_standalone_gaf_rc:$(TARGET_COPY_OUT_VENDOR)/etc/libg3a_standalone_gaf_rc \
-    vendor/google/oriole/proprietary/vendor/etc/libg3a_standalone_ghawb_rc:$(TARGET_COPY_OUT_VENDOR)/etc/libg3a_standalone_ghawb_rc \
     vendor/google/oriole/proprietary/vendor/etc/media_codecs_aosp_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_aosp_c2.xml \
     vendor/google/oriole/proprietary/vendor/etc/media_codecs_dolby_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_c2.xml \
     vendor/google/oriole/proprietary/vendor/etc/modem_stat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/modem_stat.conf \
@@ -742,6 +764,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/cfg.db:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/cfg.db \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/cfg.sha2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/cfg.sha2 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/006f33b0be2f436fdf50bb0e2acf713af96cc604:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/006f33b0be2f436fdf50bb0e2acf713af96cc604 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/011923244af585d686c5c0c45c93c6c17a7b0587:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/011923244af585d686c5c0c45c93c6c17a7b0587 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/01461594150bd233ec888d53effe3c979991a74d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/01461594150bd233ec888d53effe3c979991a74d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/016e167721af143fae3321720d0407fb63fb5869:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/016e167721af143fae3321720d0407fb63fb5869 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/01b0a7ee2bb8e6467f3f6661bbad8bc203d68ca2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/01b0a7ee2bb8e6467f3f6661bbad8bc203d68ca2 \
@@ -776,7 +799,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/0ee548b86c7af897700803e1c690fc06ae671b6d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/0ee548b86c7af897700803e1c690fc06ae671b6d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/0f79f653b8a27f63053ed5a1803901e1d611a14d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/0f79f653b8a27f63053ed5a1803901e1d611a14d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/0f7ea1d6a953f72e1ba79b6d991bc07724b0a85f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/0f7ea1d6a953f72e1ba79b6d991bc07724b0a85f \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/0fef60f17be1506282f0f753a5fb45cf6cf1cbe3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/0fef60f17be1506282f0f753a5fb45cf6cf1cbe3 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/10063b45ce232642c023eb1796e13dc1db06eb16:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/10063b45ce232642c023eb1796e13dc1db06eb16 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/105b6c5a3c863c0169af012914173ebc70b6018b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/105b6c5a3c863c0169af012914173ebc70b6018b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/105ee3a845ad70edcc48b72ba0a56c1b293992f6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/105ee3a845ad70edcc48b72ba0a56c1b293992f6 \
@@ -820,6 +842,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/1e87916a1ea2bcfa628761f707ad6895c568fe37:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1e87916a1ea2bcfa628761f707ad6895c568fe37 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/1f3ae091e938effcc43e9c2661fcde479be0d42d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1f3ae091e938effcc43e9c2661fcde479be0d42d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/200919e5c90fab8e35cfc95a95d2edb4984bd37f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/200919e5c90fab8e35cfc95a95d2edb4984bd37f \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/200c4d0ebc8e6e47538276fde5de838052c58d1d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/200c4d0ebc8e6e47538276fde5de838052c58d1d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/201d7a1b5e5bdb6f2307217f78811afc0710b91e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/201d7a1b5e5bdb6f2307217f78811afc0710b91e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/205cc7652254ade4a41fd529d69c0bba52f4d4ff:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/205cc7652254ade4a41fd529d69c0bba52f4d4ff \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/20ebc1d56033f71a8dcc5cc467bf53ae9c410ba1:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/20ebc1d56033f71a8dcc5cc467bf53ae9c410ba1 \
@@ -834,12 +857,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/2329ab89b1d3f97d70f0a67058eb1a2ba0e331b4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/2329ab89b1d3f97d70f0a67058eb1a2ba0e331b4 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/235596fc86c4b6ad9d83f7a3223ed33a9340c356:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/235596fc86c4b6ad9d83f7a3223ed33a9340c356 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/237187a5656d4b20941a7f2cb99a96fb5283410f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/237187a5656d4b20941a7f2cb99a96fb5283410f \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/2458d75f428ec27f0e922300d4e3e50eaeae89aa:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/2458d75f428ec27f0e922300d4e3e50eaeae89aa \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/25000a2424fedb926b740fde0db3475943d75825:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/25000a2424fedb926b740fde0db3475943d75825 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/251daa6960e154cae4255716683a5eda5d4f1a7d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/251daa6960e154cae4255716683a5eda5d4f1a7d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/25987e6aae3ed648f1004324c137d14530ff038d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/25987e6aae3ed648f1004324c137d14530ff038d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/2624ce9664a2d755241ea59dc469ec4d145fda70:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/2624ce9664a2d755241ea59dc469ec4d145fda70 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/26dfb3a523c8259c54d3b9099d1e769f16a5812b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/26dfb3a523c8259c54d3b9099d1e769f16a5812b \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/26f0deaf383cf3ead32dcf1da558086654934ec6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/26f0deaf383cf3ead32dcf1da558086654934ec6 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/275bed9882b9fb4920d8d4a7f97422e525f82c2b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/275bed9882b9fb4920d8d4a7f97422e525f82c2b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/27fead673b430c8650bf224f9b23276fd71bdb96:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/27fead673b430c8650bf224f9b23276fd71bdb96 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/284c7453518b71f18437b0ed56956fb10cd30e82:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/284c7453518b71f18437b0ed56956fb10cd30e82 \
@@ -870,7 +893,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/31ddfb63b3382f2d2f75b2e194eadb28a54f7999:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/31ddfb63b3382f2d2f75b2e194eadb28a54f7999 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/31f71c049f1ae5dd6cbf27feef3849443c658d31:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/31f71c049f1ae5dd6cbf27feef3849443c658d31 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/33c8b03cb73786076afbce588004a8e2b1a107bf:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/33c8b03cb73786076afbce588004a8e2b1a107bf \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/34514a0cc731a6644622138f5684e9c09fa7fd76:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/34514a0cc731a6644622138f5684e9c09fa7fd76 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/345be7e6d41111147a6217ab1e80ec2587a4c0c8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/345be7e6d41111147a6217ab1e80ec2587a4c0c8 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/345fe19d76fdd67c978305a549050fa463d0333b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/345fe19d76fdd67c978305a549050fa463d0333b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/35ab784024e60329d3df46440617d36d58c6dc52:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/35ab784024e60329d3df46440617d36d58c6dc52 \
@@ -888,6 +910,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3a3bb6f33f9e75e1e8eddc01174015ebb1bf8997:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3a3bb6f33f9e75e1e8eddc01174015ebb1bf8997 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3a983189947824fe39195daff78868512db8441d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3a983189947824fe39195daff78868512db8441d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3ab9616abc976e2e21d07eb0ea7f510b87543d18:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3ab9616abc976e2e21d07eb0ea7f510b87543d18 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3b80cb8967c7de4e330d15133bf70a9aa2689803:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3b80cb8967c7de4e330d15133bf70a9aa2689803 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3bd6ce34a06cd16c78f2f31c4b0a540478bbf5e2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3bd6ce34a06cd16c78f2f31c4b0a540478bbf5e2 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3c3baf883c867eb17edbc1e0c934c976fa46bb8e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3c3baf883c867eb17edbc1e0c934c976fa46bb8e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3c4fe0e8fffe4143cca3c3b84495af53ad329be2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3c4fe0e8fffe4143cca3c3b84495af53ad329be2 \
@@ -906,6 +929,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3eda3cf7cc9fed3dd3aaceffe8202f5bfbf63fc0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3eda3cf7cc9fed3dd3aaceffe8202f5bfbf63fc0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3f42f70b8867153575bbd7994d4e0401517e0b29:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3f42f70b8867153575bbd7994d4e0401517e0b29 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3faac1cb6ded8bf94fab7fadabbb04a856cba8b7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3faac1cb6ded8bf94fab7fadabbb04a856cba8b7 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/3fc65c6a8120c77a2a6e6a8fae7ed3bd59dd64ce:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3fc65c6a8120c77a2a6e6a8fae7ed3bd59dd64ce \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/405126a2845b9a2ceb9bf3f4bc35333ba1bdbac9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/405126a2845b9a2ceb9bf3f4bc35333ba1bdbac9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/40797a1728b2a2d8c69fd68b9c3020e42ecdcad0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/40797a1728b2a2d8c69fd68b9c3020e42ecdcad0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/40a4aa97ef40ea2d582c867701b6c0006350cc5d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/40a4aa97ef40ea2d582c867701b6c0006350cc5d \
@@ -928,13 +952,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/46ce883643b5d39032f3f9c949d2c54b5fc2d525:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/46ce883643b5d39032f3f9c949d2c54b5fc2d525 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/47050cfe7eb180cd3662a57c251570324b207025:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/47050cfe7eb180cd3662a57c251570324b207025 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4726d09d5aa0348c746be8b21a03de3cd1e0e46f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4726d09d5aa0348c746be8b21a03de3cd1e0e46f \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/474bfb00b55b7b1e35dbbd60c4f45d143265c4ca:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/474bfb00b55b7b1e35dbbd60c4f45d143265c4ca \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/47b1f6502c6d332d51e2bfd3ab7154a01e259ce3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/47b1f6502c6d332d51e2bfd3ab7154a01e259ce3 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/47d45edf349a833b0d36bb09846cc228306c467d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/47d45edf349a833b0d36bb09846cc228306c467d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/47d826b0349840039be2dd2702c1025bb7268756:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/47d826b0349840039be2dd2702c1025bb7268756 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/480aa556d0ca46a77dd38db8f3e3177c6943dbcf:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/480aa556d0ca46a77dd38db8f3e3177c6943dbcf \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4922772fe5e3cca24c697fa61b8b417a950ca546:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4922772fe5e3cca24c697fa61b8b417a950ca546 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4a4358d6686aeff8b79b9736ded40e63f8195864:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4a4358d6686aeff8b79b9736ded40e63f8195864 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4b63fc55a26a6700db98b5853f460b6782d96a5a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4b63fc55a26a6700db98b5853f460b6782d96a5a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4b7429413bc05ad23ba967c0f5d0f9562b61b1da:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4b7429413bc05ad23ba967c0f5d0f9562b61b1da \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4bb2f5a133ab9babd4f4a32bfcf3d462468740c0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4bb2f5a133ab9babd4f4a32bfcf3d462468740c0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/4be483e10f0cb1566345c403b56d791765ed505b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4be483e10f0cb1566345c403b56d791765ed505b \
@@ -954,6 +978,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/51183c01cce01003dfc913e111d6a69299dbc76d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/51183c01cce01003dfc913e111d6a69299dbc76d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/51dec1ab373221a186576c6028f440fdc5439006:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/51dec1ab373221a186576c6028f440fdc5439006 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/51df4ff2e8a67d70654be7158236ca4efd4699f8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/51df4ff2e8a67d70654be7158236ca4efd4699f8 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5256a8d6fde34227cd877d2e8dee4cbf3d873d5c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5256a8d6fde34227cd877d2e8dee4cbf3d873d5c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/528f03ca8cdebe4cd321fa14ea090dfb80a474f3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/528f03ca8cdebe4cd321fa14ea090dfb80a474f3 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5408a64269d66974ea418160defbcbe6161c1709:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5408a64269d66974ea418160defbcbe6161c1709 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/54b3e870d305104a7576109752901ca06e8d1289:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/54b3e870d305104a7576109752901ca06e8d1289 \
@@ -967,6 +992,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/57ea67d9ca7da02731edfae4ba538d29e143b38f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/57ea67d9ca7da02731edfae4ba538d29e143b38f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/582be8a74330df7d15e4942b88b21cf9a3454177:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/582be8a74330df7d15e4942b88b21cf9a3454177 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5837e1608cc4d79354e22c7757339d0099a01535:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5837e1608cc4d79354e22c7757339d0099a01535 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/58b17f42e7837a4730b76de941ce7f75bbdc409f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/58b17f42e7837a4730b76de941ce7f75bbdc409f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/58f52f29c161ccaefd7024519b92d2578497d1d0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/58f52f29c161ccaefd7024519b92d2578497d1d0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/59c8843b075d45dda94294dd39357ca580f9d933:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/59c8843b075d45dda94294dd39357ca580f9d933 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/59de0739e8e6d8378f84488bae30704530fff3f2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/59de0739e8e6d8378f84488bae30704530fff3f2 \
@@ -979,7 +1005,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5d8b71710e81592ec290ed5fbcd9c3b63dc082a1:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5d8b71710e81592ec290ed5fbcd9c3b63dc082a1 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5db653304f344cc36f3567a7cf01ecaab30d5733:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5db653304f344cc36f3567a7cf01ecaab30d5733 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5e0271cd2afbc7306ea2c9d3bb82ddc3a7658323:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5e0271cd2afbc7306ea2c9d3bb82ddc3a7658323 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5e6af65d184d3effe9f847315662444823fb8a0e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5e6af65d184d3effe9f847315662444823fb8a0e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5e8c8018611be70a4cd63f40343d72c277c43056:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5e8c8018611be70a4cd63f40343d72c277c43056 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5ec2892d35aef88e5274408de6b28e82ae3dbd3c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5ec2892d35aef88e5274408de6b28e82ae3dbd3c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/5ee61f51bf807f87c8188fbbf8a814d2ea070e1a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5ee61f51bf807f87c8188fbbf8a814d2ea070e1a \
@@ -1026,6 +1051,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/705176c0b2bcdd1d425e09013c08e340c7615a71:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/705176c0b2bcdd1d425e09013c08e340c7615a71 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/7075e1418b88b8d93d8763a783458103b952dd27:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7075e1418b88b8d93d8763a783458103b952dd27 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/70cb97e5925db57e8fbba623baadfc4dbe156895:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/70cb97e5925db57e8fbba623baadfc4dbe156895 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/7118c1e3f38ad781593b1c90cfa42f079c74595f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7118c1e3f38ad781593b1c90cfa42f079c74595f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/715e163a6d150320927afea2498fa7946fb6d286:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/715e163a6d150320927afea2498fa7946fb6d286 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/71856cf36fd8bfb378b5ab9dd6f5dbaeecd6add9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/71856cf36fd8bfb378b5ab9dd6f5dbaeecd6add9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/71e5e91a56c2d37a3a0f303f807404b6b226d5ce:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/71e5e91a56c2d37a3a0f303f807404b6b226d5ce \
@@ -1035,7 +1061,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/72d8982b52bc8fd6ae40418fb5a9b3892798b6b7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/72d8982b52bc8fd6ae40418fb5a9b3892798b6b7 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/72d8b4d849374bd7e8a506eb1bf9af1ce8a6e74e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/72d8b4d849374bd7e8a506eb1bf9af1ce8a6e74e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/72fb00e8feae4bbc228ec1c8bb1c9313a03fd759:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/72fb00e8feae4bbc228ec1c8bb1c9313a03fd759 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/7323280958e2db5a4f09f5fa052a7b1ae52efd3d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7323280958e2db5a4f09f5fa052a7b1ae52efd3d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/732ab7839df394c59951f29e3e3a365e0599b1d9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/732ab7839df394c59951f29e3e3a365e0599b1d9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/736f16e27074958fb46b2043f54af5e602394743:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/736f16e27074958fb46b2043f54af5e602394743 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/73a31ebe5cba6c75e6d97a4515f5669b153ac05c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/73a31ebe5cba6c75e6d97a4515f5669b153ac05c \
@@ -1102,8 +1127,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/85bb8569b33c4d5fc0b90c80d5a04f0b165d4d0d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/85bb8569b33c4d5fc0b90c80d5a04f0b165d4d0d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/862bed21d28a1cc158c0fbc6eb17a31f7e3c505c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/862bed21d28a1cc158c0fbc6eb17a31f7e3c505c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/867cab879bfb2c1e66aca3ed36807846b6543d8b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/867cab879bfb2c1e66aca3ed36807846b6543d8b \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/868849228dfac62623a44115e754aa29dc6840c3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/868849228dfac62623a44115e754aa29dc6840c3 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/86b404a011063b56afa2466c123a6cd53663d909:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/86b404a011063b56afa2466c123a6cd53663d909 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/86f165adb48c52d6c6c2dd3d94c2eaa3590f8000:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/86f165adb48c52d6c6c2dd3d94c2eaa3590f8000 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8733606220f8ad6be717e9d997867ed2fbba3b22:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8733606220f8ad6be717e9d997867ed2fbba3b22 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8757ca71943a9364d1007f004c3a05bf848a2174:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8757ca71943a9364d1007f004c3a05bf848a2174 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/880c233f5dc7962fb8558b1576506c058743fa12:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/880c233f5dc7962fb8558b1576506c058743fa12 \
@@ -1119,7 +1144,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8cdc5b1a13e3895ccbf2b61ab67565149c79e8a4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8cdc5b1a13e3895ccbf2b61ab67565149c79e8a4 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8d4e98b8a8638d66ede07a5441df6c5850dba2ba:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8d4e98b8a8638d66ede07a5441df6c5850dba2ba \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8d7d4e0bde4c7df3cb3586d422b663940fd5bc01:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8d7d4e0bde4c7df3cb3586d422b663940fd5bc01 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8de9f1351c512013493ba80820e29646bdb16c83:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8de9f1351c512013493ba80820e29646bdb16c83 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8e1a2b5fd62a35e0feffdcab6d6c34850b305972:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8e1a2b5fd62a35e0feffdcab6d6c34850b305972 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8e3543b0b34a6dd476ab13b54713b8e700d440c6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8e3543b0b34a6dd476ab13b54713b8e700d440c6 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/8f3f4df5b6b227f77c416f40e7b9d8a286d95dd3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8f3f4df5b6b227f77c416f40e7b9d8a286d95dd3 \
@@ -1169,7 +1193,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9d2fe859c5f6133e07b3f3246439773a939c60dc:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9d2fe859c5f6133e07b3f3246439773a939c60dc \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9e2789b5de7acf4e45e65a1e2eed0e335eb6f9d2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9e2789b5de7acf4e45e65a1e2eed0e335eb6f9d2 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9e3cd79a150d7199726bd7520cad1bc5215be477:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9e3cd79a150d7199726bd7520cad1bc5215be477 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9e94dddd8c219d1a6a48c43b76cf14d7a2528f3b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9e94dddd8c219d1a6a48c43b76cf14d7a2528f3b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9eae50eddd4f59e376cbc00886038ccbfb075e61:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9eae50eddd4f59e376cbc00886038ccbfb075e61 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9eba9ebfcf23c0897d95073be8b72631d549e8e8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9eba9ebfcf23c0897d95073be8b72631d549e8e8 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/9eda9db2e2cb30357b588c1c12b6b5ed339c4238:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/9eda9db2e2cb30357b588c1c12b6b5ed339c4238 \
@@ -1221,7 +1244,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b131ac2d8d29f7fc760c86a5a7d2d76009c2dd30:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b131ac2d8d29f7fc760c86a5a7d2d76009c2dd30 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b1be072a43cb281bc3c4a88e362bbf2593412f07:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b1be072a43cb281bc3c4a88e362bbf2593412f07 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b1f31f18e5bb0e891779dea266f11f4c44bef902:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b1f31f18e5bb0e891779dea266f11f4c44bef902 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b28dfb68fb76bd9d6bf10e3bea6869528c69a449:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b28dfb68fb76bd9d6bf10e3bea6869528c69a449 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b29a763a011ea27ae98c1fe5c613055a3c03cdc8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b29a763a011ea27ae98c1fe5c613055a3c03cdc8 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b3baa1f116f5358a2f7650e76a381542b9e0724e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b3baa1f116f5358a2f7650e76a381542b9e0724e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/b3f530bb4bd57941091e8a47385be14024d8dc40:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b3f530bb4bd57941091e8a47385be14024d8dc40 \
@@ -1268,7 +1290,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c5089d18357210800e846048144add3b571f9679:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c5089d18357210800e846048144add3b571f9679 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c535f1f7d378f7146a33c29dff70a9ef5beaca32:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c535f1f7d378f7146a33c29dff70a9ef5beaca32 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c5ef3525d4ce088abbbd63dbe3a4c44c70ba430c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c5ef3525d4ce088abbbd63dbe3a4c44c70ba430c \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c60ec400269eef1f87c125af7c4f9390e90a8267:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c60ec400269eef1f87c125af7c4f9390e90a8267 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c6ad44735df88a12fb37f300c6e3fcee7b103088:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c6ad44735df88a12fb37f300c6e3fcee7b103088 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c7031a01ae80e33139617b5c0a273747d5d85a4a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c7031a01ae80e33139617b5c0a273747d5d85a4a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/c7847e4b6725885e860fd2466d8fcd5a8e1771ce:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/c7847e4b6725885e860fd2466d8fcd5a8e1771ce \
@@ -1286,6 +1307,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cab76914fc2ea1ed9c31ecbc056f884ff9c087d4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cab76914fc2ea1ed9c31ecbc056f884ff9c087d4 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cad5c9471297327e61a55237f17d7727b58ab739:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cad5c9471297327e61a55237f17d7727b58ab739 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cb9940770c73b0b4a8cc78973c237974c897d507:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cb9940770c73b0b4a8cc78973c237974c897d507 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cbb053de76a3c125bdc2c5a87a27b5e5d2fbf91a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cbb053de76a3c125bdc2c5a87a27b5e5d2fbf91a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cbbd2488a7204924a6df7faf2528b3bfeae511d6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cbbd2488a7204924a6df7faf2528b3bfeae511d6 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cc2f96ff9eddd4e83dea3802ce4eecccf152ea1c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cc2f96ff9eddd4e83dea3802ce4eecccf152ea1c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/cca50a8f6109cecf667ecd3da0d863aabf64847c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cca50a8f6109cecf667ecd3da0d863aabf64847c \
@@ -1308,6 +1330,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d078d99fce7c1c9d2a81d03754b1e27754ee9b6f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d078d99fce7c1c9d2a81d03754b1e27754ee9b6f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d0bc069ec5dd36a04444b7e8ac96e50f85681272:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d0bc069ec5dd36a04444b7e8ac96e50f85681272 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d13fe406b9b9d53970af10e3a4e8cc8d3cc83799:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d13fe406b9b9d53970af10e3a4e8cc8d3cc83799 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d160ef2bee7c8ce77d3776b8663af13e1515c196:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d160ef2bee7c8ce77d3776b8663af13e1515c196 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d1728be0970a80bb9d00345cc1d7ce46a1945008:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d1728be0970a80bb9d00345cc1d7ce46a1945008 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d19a0cfa5fac1a8c7c4b27ee63f73f68d40dc3db:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d19a0cfa5fac1a8c7c4b27ee63f73f68d40dc3db \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d1c290ea1e4544dec1934931fbfa1fb2060eb3a0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d1c290ea1e4544dec1934931fbfa1fb2060eb3a0 \
@@ -1326,7 +1349,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d562ac30d384dc831a1761bb169c625a418c5607:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d562ac30d384dc831a1761bb169c625a418c5607 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d5dfc973bc3236febda5c885f472bdec6d48b34c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d5dfc973bc3236febda5c885f472bdec6d48b34c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d6888fddfad103e550f394487f7eedb0b8157e08:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d6888fddfad103e550f394487f7eedb0b8157e08 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d78948871ae2d3b44f00966d1b6216b78f5880ae:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d78948871ae2d3b44f00966d1b6216b78f5880ae \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d793fa68ee6b3a9596bf55804660d96f3b61b004:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d793fa68ee6b3a9596bf55804660d96f3b61b004 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d83b35df560006ad34ba4a4c48ebcf428d719d7d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d83b35df560006ad34ba4a4c48ebcf428d719d7d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d84d932aec0aa17718f9d02c90ca68517bad6857:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d84d932aec0aa17718f9d02c90ca68517bad6857 \
@@ -1335,7 +1357,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d923c2a7f44e8986828b5b256cb783edb6776e00:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d923c2a7f44e8986828b5b256cb783edb6776e00 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/d97bb9bfa702cf73f6d4434a32d1174fc68931f6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d97bb9bfa702cf73f6d4434a32d1174fc68931f6 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/dac32fb4998dcb33da39f5866e381d117eb643b4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/dac32fb4998dcb33da39f5866e381d117eb643b4 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/daf760623eaadf4f04dac73cbbb36168d9a21cec:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/daf760623eaadf4f04dac73cbbb36168d9a21cec \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/db00752dd965cb69e3880caeb2f80bc8675c7d4e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/db00752dd965cb69e3880caeb2f80bc8675c7d4e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/db1c9d5e7615cd1ab4a0e631f7c8f4b4b6183d6d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/db1c9d5e7615cd1ab4a0e631f7c8f4b4b6183d6d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/db1eaa085b8c0a937323a2d3773f6847b3bf6fd8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/db1eaa085b8c0a937323a2d3773f6847b3bf6fd8 \
@@ -1362,12 +1383,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e3e749ee1b6cda3255768a66102e37845ddc607f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e3e749ee1b6cda3255768a66102e37845ddc607f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e46c9b888d31ba2f26ef18dc68582a2ccb97cdc0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e46c9b888d31ba2f26ef18dc68582a2ccb97cdc0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e47fc0e4afa2f506482ebf5a7b7205e6d585ac2a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e47fc0e4afa2f506482ebf5a7b7205e6d585ac2a \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e53bf770b6eee63a06480a242bfe816233258f7e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e53bf770b6eee63a06480a242bfe816233258f7e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e572fb13623becba29edf456f23c16f4eaf6f3ef:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e572fb13623becba29edf456f23c16f4eaf6f3ef \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e58ede2672e36a67f8f76ba26df2fbf585ec1831:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e58ede2672e36a67f8f76ba26df2fbf585ec1831 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e66880d19c4588551cbab161f1d663627949fa2b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e66880d19c4588551cbab161f1d663627949fa2b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e75585c0fa97aee01bcbef8d9713d3c457af20ed:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e75585c0fa97aee01bcbef8d9713d3c457af20ed \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e776e9dfc69f6c27ff019c18b5d2e6e9c701d1a5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e776e9dfc69f6c27ff019c18b5d2e6e9c701d1a5 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e82f3f79329a295d3bea721c5047e693f61cf285:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e82f3f79329a295d3bea721c5047e693f61cf285 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e8744b7a08de26f9abeef68d6b042501a65924db:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e8744b7a08de26f9abeef68d6b042501a65924db \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e87b2a38023e11735d2ec14aea7a366a70656db9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e87b2a38023e11735d2ec14aea7a366a70656db9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/e8a84775d8000cd0159af5f74c69ddc470d3a44a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e8a84775d8000cd0159af5f74c69ddc470d3a44a \
@@ -1386,9 +1407,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/ed07f8b1082a965df489f71b528cccaa7bf37952:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ed07f8b1082a965df489f71b528cccaa7bf37952 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/ed4ca1e747192f58c6f019a5f678f35b6fc82c5c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ed4ca1e747192f58c6f019a5f678f35b6fc82c5c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/ed842450d6f767fa9f8e55e4bb904d7003a2196a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ed842450d6f767fa9f8e55e4bb904d7003a2196a \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/edc845bcace6cae31db7323b081e0a67740fedac:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/edc845bcace6cae31db7323b081e0a67740fedac \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/edc9461c2bc887c24a592724226caf2c41a70769:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/edc9461c2bc887c24a592724226caf2c41a70769 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/eed1756a45f58a70059f011dc671e9d0a36752dd:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/eed1756a45f58a70059f011dc671e9d0a36752dd \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/ef4629daf03dd403e9d1deed35f34473615e56f0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ef4629daf03dd403e9d1deed35f34473615e56f0 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/ef59f861131d3b2a85ee356c68896d4f07dfa331:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ef59f861131d3b2a85ee356c68896d4f07dfa331 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/effbc623cbfdb3cf86a6b762ed530d58ca8ef41b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/effbc623cbfdb3cf86a6b762ed530d58ca8ef41b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f0020f87c2870bd09aba9d491ef691d7174e4f4f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f0020f87c2870bd09aba9d491ef691d7174e4f4f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f00e44758c821140dbb800bd53fc3544cb320769:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f00e44758c821140dbb800bd53fc3544cb320769 \
@@ -1408,7 +1431,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f5587ae24f6868e5ca762da40e4b7b2696041f55:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f5587ae24f6868e5ca762da40e4b7b2696041f55 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f662d6cc30fa696c113f1d2eeaec62d474af0c4f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f662d6cc30fa696c113f1d2eeaec62d474af0c4f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f663b1a088937750df305dd44c3773eb63894c09:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f663b1a088937750df305dd44c3773eb63894c09 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f6a4923d541058617666576a052d2ef3a705833c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f6a4923d541058617666576a052d2ef3a705833c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f6e223ce2b5cbae6f72c7cd469e82b98e84ab915:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f6e223ce2b5cbae6f72c7cd469e82b98e84ab915 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f760f574d7928fba7b640e08a11dbd29225a134f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f760f574d7928fba7b640e08a11dbd29225a134f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/confseqs/f7993ffdf076ab371e3c3d851baf57e429a84b83:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f7993ffdf076ab371e3c3d851baf57e429a84b83 \
@@ -1438,7 +1460,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/015b1f5d6d6e2a206b9ae08f8a8a94f74b9dd7e8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/015b1f5d6d6e2a206b9ae08f8a8a94f74b9dd7e8 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/0169ad3bb96144351f093a1c8bc0d0d74b9a0699:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/0169ad3bb96144351f093a1c8bc0d0d74b9a0699 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/017a3f2299666d1cba32218427b0252109d5f068:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/017a3f2299666d1cba32218427b0252109d5f068 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/024bbf5d9f71caf8ca07893f7139a68b8ad33825:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/024bbf5d9f71caf8ca07893f7139a68b8ad33825 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/030ff1f4f56a80f6f1e8299093e32bd4a5d17ff7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/030ff1f4f56a80f6f1e8299093e32bd4a5d17ff7 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/04121d36579d1ed3b73df4ef609325cc754d1f2c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/04121d36579d1ed3b73df4ef609325cc754d1f2c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/0dd28c35e79f5580c37941021b1f0cf5e48f78aa:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/0dd28c35e79f5580c37941021b1f0cf5e48f78aa \
@@ -1446,18 +1467,17 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/128341ce3a1b02a13778c2f3411558e599879468:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/128341ce3a1b02a13778c2f3411558e599879468 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/14820092b2b5d6c035b7fdeafd021efaa620b51f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/14820092b2b5d6c035b7fdeafd021efaa620b51f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/153fbc8d23c94552c89099f0545679fbdb48e178:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/153fbc8d23c94552c89099f0545679fbdb48e178 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/15a075769eceb2a915c2e58d3fa5a3ce15194ccd:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/15a075769eceb2a915c2e58d3fa5a3ce15194ccd \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/15effaa2b9a7dbf58a099ba7ac3090105c090f1c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/15effaa2b9a7dbf58a099ba7ac3090105c090f1c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/1805a8f0dc5e81c5df4c4f133f28e1fa3e57da78:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/1805a8f0dc5e81c5df4c4f133f28e1fa3e57da78 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/1a9bcc5f17c3fd5e4d673ee2676a01af207ab463:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/1a9bcc5f17c3fd5e4d673ee2676a01af207ab463 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/1c12e196730d9b139ed4b57580ca0ab975a95542:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/1c12e196730d9b139ed4b57580ca0ab975a95542 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2123eb71225ae5cf29fbaf60d9000e4556372b35:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2123eb71225ae5cf29fbaf60d9000e4556372b35 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/216f20c224551f375169e3cdd6592e67dd4f3eb5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/216f20c224551f375169e3cdd6592e67dd4f3eb5 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/25259402208eb380b404f48938bc49631e306c50:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/25259402208eb380b404f48938bc49631e306c50 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/26848e2352e8cdcb4e4dc138bd01b8cb4504bbfe:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/26848e2352e8cdcb4e4dc138bd01b8cb4504bbfe \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2a55a03ed129b958ba3a2369e56a288ea818cc19:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2a55a03ed129b958ba3a2369e56a288ea818cc19 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2bee82bda27e641ff5137f357e84c033c237d9f8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2bee82bda27e641ff5137f357e84c033c237d9f8 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2bff1a7ffa13ebeb4d99e57987d6d1ea90c6e8e7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2bff1a7ffa13ebeb4d99e57987d6d1ea90c6e8e7 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2c0a439d980883d64d3faabb60e21ca62fb98a79:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2c0a439d980883d64d3faabb60e21ca62fb98a79 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/2d9f5d55b54f3f435eb633d2a3ad6e58936b6d0a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/2d9f5d55b54f3f435eb633d2a3ad6e58936b6d0a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/30cb51cbab6662e46779811438cb8e11f7d4e550:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/30cb51cbab6662e46779811438cb8e11f7d4e550 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/3100986d31fdc14b50432b893ec59678e2c741f6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/3100986d31fdc14b50432b893ec59678e2c741f6 \
@@ -1481,6 +1501,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4a83db04ff3d83b0b51d5173a1614cb31664382e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4a83db04ff3d83b0b51d5173a1614cb31664382e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4b50f1c3ff013f2aaa590383bb90e60dc3e40ca3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4b50f1c3ff013f2aaa590383bb90e60dc3e40ca3 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4c2599922a21f0ef2ccd2267fe182fc3753a0209:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4c2599922a21f0ef2ccd2267fe182fc3753a0209 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4d17cad68676420474bb205b29f173c4e7fcf8a5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4d17cad68676420474bb205b29f173c4e7fcf8a5 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4f216d1c0364c445038e1babb9039a5e8f8c31ca:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4f216d1c0364c445038e1babb9039a5e8f8c31ca \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4fccfa26f0e914962741d6a97381aa7a684d72a9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4fccfa26f0e914962741d6a97381aa7a684d72a9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/4ff7bbd200a277f4e07c4ca67e0aa5de2620bc1e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4ff7bbd200a277f4e07c4ca67e0aa5de2620bc1e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/527a50e1de3f7ddfaccc0fa11a31a864fa51c1b5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/527a50e1de3f7ddfaccc0fa11a31a864fa51c1b5 \
@@ -1510,17 +1532,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/773bd827374288dbdf713fe2f4496c5c64edcc3e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/773bd827374288dbdf713fe2f4496c5c64edcc3e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/79dd8ee4fd5f8fc9ae895fb93f9173b3897f9808:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/79dd8ee4fd5f8fc9ae895fb93f9173b3897f9808 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/79e61167f99b6cafdf5e7a94da18c2ed45dcddb3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/79e61167f99b6cafdf5e7a94da18c2ed45dcddb3 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7bc0884d05d14ce130c9d1c76ccd6aad84742c8d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7bc0884d05d14ce130c9d1c76ccd6aad84742c8d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7c1989fc205f210c872059da24921463aa7a99fe:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7c1989fc205f210c872059da24921463aa7a99fe \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7d812f8e6f5516cf8f6acce683b77432e9130d09:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7d812f8e6f5516cf8f6acce683b77432e9130d09 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7e909ffdb34e3af6c507b8545c31f67cf2729c14:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7e909ffdb34e3af6c507b8545c31f67cf2729c14 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7ea57d2d942744af7332e000995e91dda0a58ef1:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7ea57d2d942744af7332e000995e91dda0a58ef1 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/7fccafb06d97698ff904e980834209b033e08e88:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/7fccafb06d97698ff904e980834209b033e08e88 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/813b59179cefbbc124a0fbac8eb6ed72f595c58b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/813b59179cefbbc124a0fbac8eb6ed72f595c58b \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/818729f346168ffe298d6632c936c13d4856fde5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/818729f346168ffe298d6632c936c13d4856fde5 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/81a27dd317b0a04f5805fa18b64c38efc7f926dd:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/81a27dd317b0a04f5805fa18b64c38efc7f926dd \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/838b1971bf7d95fb24baf8147451973f8b4050b1:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/838b1971bf7d95fb24baf8147451973f8b4050b1 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/8444ee6b57fee8712a7261c9f2ad027012d887ac:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8444ee6b57fee8712a7261c9f2ad027012d887ac \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/86017064dc2c61b5235b01b4f65ec59bbbfb8979:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/86017064dc2c61b5235b01b4f65ec59bbbfb8979 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/8899ff9c66d2bced01c824d1ccff89835a5c5cba:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8899ff9c66d2bced01c824d1ccff89835a5c5cba \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/8a7eef11d2e8fa1117701590732e191d70609639:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8a7eef11d2e8fa1117701590732e191d70609639 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/8a9fbba6aab4f57e156a7e66864ca37636e7b62e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8a9fbba6aab4f57e156a7e66864ca37636e7b62e \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/8ae7cc57c3ed2ae6a55835c14ff92b00151fd1e4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8ae7cc57c3ed2ae6a55835c14ff92b00151fd1e4 \
@@ -1537,10 +1560,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/994c7ab4cc7d788a58ed263d997b5426fbe3bbdf:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/994c7ab4cc7d788a58ed263d997b5426fbe3bbdf \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/9f8a905db02e72b1be99509dccb06d9ea3e04d5c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/9f8a905db02e72b1be99509dccb06d9ea3e04d5c \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/a15822c0baea8add9f75ffcb02eb98f2061d24f8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a15822c0baea8add9f75ffcb02eb98f2061d24f8 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/a4ead34e1883fb77b0df1cbfe208a8bb38377576:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a4ead34e1883fb77b0df1cbfe208a8bb38377576 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/a5f85ee42cdeff54204c9d048c4737d5fc5a4330:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a5f85ee42cdeff54204c9d048c4737d5fc5a4330 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/a66f595c2e0e253ddd4e2c21300401ae91b99067:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a66f595c2e0e253ddd4e2c21300401ae91b99067 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/a8b37f1b012052a2509fc0a33ffe4e817aac9b03:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a8b37f1b012052a2509fc0a33ffe4e817aac9b03 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/aaf96dd9fdad7b3320d9443f5b91e1137455c51b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/aaf96dd9fdad7b3320d9443f5b91e1137455c51b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/ab253a50d14fe31d17f5a4b90f3110af40533b29:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ab253a50d14fe31d17f5a4b90f3110af40533b29 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/aba4defbc1d3e4e9e58250c6568200e2e6659493:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/aba4defbc1d3e4e9e58250c6568200e2e6659493 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/abdfa1f160074db2d7527a7ea31590c3bd752f66:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/abdfa1f160074db2d7527a7ea31590c3bd752f66 \
@@ -1551,6 +1574,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/b8e6283233f98c28283ede41d1141b53f9578940:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/b8e6283233f98c28283ede41d1141b53f9578940 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/ba4b00602af5118028b50605605b801418d070a5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ba4b00602af5118028b50605605b801418d070a5 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/bab13d155971509ff87e50e74d0093503875f9bc:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/bab13d155971509ff87e50e74d0093503875f9bc \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/bb9cd5a9d8a3da6a051f09ad195aea0fcb50be7a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/bb9cd5a9d8a3da6a051f09ad195aea0fcb50be7a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/bcf295f4ee01c26366c342127db5993ddd6f3e31:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/bcf295f4ee01c26366c342127db5993ddd6f3e31 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/bee506763e7500d9724e777a7e275b38cf91a195:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/bee506763e7500d9724e777a7e275b38cf91a195 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/bfc7673d05201a4a47f6e3df61be81099ec86012:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/bfc7673d05201a4a47f6e3df61be81099ec86012 \
@@ -1562,19 +1586,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/c90a7866ddc38080eb17f990a228fc28903f2034:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c90a7866ddc38080eb17f990a228fc28903f2034 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/c98bd667bf57d505f1870aaab03520bb2ac1297b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c98bd667bf57d505f1870aaab03520bb2ac1297b \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/cb386c2a681899e8f39c2da3bdd10abc6b1e73d3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cb386c2a681899e8f39c2da3bdd10abc6b1e73d3 \
+    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/cc00e1a8389d980668f4af5206624fb72fd090c0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cc00e1a8389d980668f4af5206624fb72fd090c0 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/cd3705b5020ebc77054b2222c302486450dd8a66:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cd3705b5020ebc77054b2222c302486450dd8a66 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/cd95faa92c342b12b93afef9d358f9e12b6b70c2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cd95faa92c342b12b93afef9d358f9e12b6b70c2 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/cdaebf475efed7dce5a3444689f1e97b93fc4ff5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cdaebf475efed7dce5a3444689f1e97b93fc4ff5 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/ce4d07666768d36fac7b56d0618b3e6c9b358940:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ce4d07666768d36fac7b56d0618b3e6c9b358940 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d07184de19452f878e64322145370b1626617012:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d07184de19452f878e64322145370b1626617012 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d24a6ae4b4c91154198760cbfc88503c9870eeab:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d24a6ae4b4c91154198760cbfc88503c9870eeab \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d4c7e0022aa0ea83156d6704c60adf9d83fc3c36:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d4c7e0022aa0ea83156d6704c60adf9d83fc3c36 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d5a955e623abdabb90d3ac87090b7267c50706a6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d5a955e623abdabb90d3ac87090b7267c50706a6 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d5ee1435541e21596c24d418f02e6641d39a0c52:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d5ee1435541e21596c24d418f02e6641d39a0c52 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d654ef9c5ae66e68bf0b6b1ae95a1dfcea6b4c4f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d654ef9c5ae66e68bf0b6b1ae95a1dfcea6b4c4f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d81e2b0f54f86f44ebf078baabdc8dabd2c3a3b9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d81e2b0f54f86f44ebf078baabdc8dabd2c3a3b9 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d9d7f78cdaca78e43170728fa02b5206bbee386e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d9d7f78cdaca78e43170728fa02b5206bbee386e \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d9e14ae510f630dd1d669859189d9f1b1440d1e7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d9e14ae510f630dd1d669859189d9f1b1440d1e7 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/d9f67782c809aea2fbb49f3b154e86e0042da1fe:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d9f67782c809aea2fbb49f3b154e86e0042da1fe \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/db33a80da5c950a92fcf8722bf17ce840b780a3d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/db33a80da5c950a92fcf8722bf17ce840b780a3d \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/dc6da786e1e27ae77d22654690d4747c5b5f1cba:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/dc6da786e1e27ae77d22654690d4747c5b5f1cba \
@@ -1586,7 +1609,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/e23cecc54bd613a8066e28071df0e62dfa78c91a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e23cecc54bd613a8066e28071df0e62dfa78c91a \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/e2cae0ba142e0d1223c4c71646653fb3490708b2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e2cae0ba142e0d1223c4c71646653fb3490708b2 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/e2e5ae363c3087a34f6b70baaa0065d76d9f5142:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e2e5ae363c3087a34f6b70baaa0065d76d9f5142 \
-    vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/e95c17e4ca78e19ec799da864567a0debd6acc68:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e95c17e4ca78e19ec799da864567a0debd6acc68 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/e989743305fb52a4a7c54661445cad82853db061:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e989743305fb52a4a7c54661445cad82853db061 \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/ecda005da9fca4cc321ba767ac9f4ff743c15f4f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ecda005da9fca4cc321ba767ac9f4ff743c15f4f \
     vendor/google/oriole/proprietary/vendor/firmware/carrierconfig/manifests/ee0ea4c62f94a480ec04935c85017471443528b4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ee0ea4c62f94a480ec04935c85017471443528b4 \
@@ -1702,11 +1724,10 @@ PRODUCT_PACKAGES += \
     sensors.usf \
     liboffloadeffect \
     libspatialaudio \
-    vendor-pixelatoms-cpp \
     vendor.google.battery_mitigation-V1-ndk \
     vendor.google.battery_mitigation.service_static \
     vendor.google.whitechapel.audio.audioext@4.0 \
-    vendor.google.whitechapel.audio.extension-V3-ndk \
+    vendor.google.whitechapel.audio.extension-V4-ndk \
     vendor.radio.base \
     vendor.radio.protocol.sit.base \
     vendor.radio.protocol.sit.json \
@@ -1722,22 +1743,20 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver2-impl.nos \
     aoc_aconfig_flags_c_lib \
     biometricsuez \
-    com.google.edgetpu.dba-V1-ndk \
     com.google.edgetpu.tachyon-V1-ndk \
-    com.google.edgetpu_app_service-V4-ndk \
     com.google.edgetpu_vendor_service-V2-ndk_vendor \
     com.google.hardware.biometrics.fingerprint.fingerprint-ext-V1-ndk \
     com.google.input-V2-ndk \
-    com.google.input-V3-ndk \
+    com.google.input-V4-ndk \
     fp_utils \
     android.hardware.gnss@2.1-impl-google \
+    android.hardware.vibrator-impl.cs40l25 \
     flp.default \
     gps.default \
     lib_reader \
     libcodec2_soft_ddpdec \
     libcodec2_store_dolby \
     libdapparamstorage \
-    libdarwinn_dba_hal_runtime \
     libdarwinn_hal \
     libdeccfg \
     libdeeptouch \
@@ -1745,7 +1764,7 @@ PRODUCT_PACKAGES += \
     libedgetpu_util \
     libgf_hal \
     libgril_oem-google \
-    libmodem_svc_proto_legacy \
+    libmodem_svc_proto_legacy_soong \
     libnos_citadeld_proxy \
     liboemcrypto \
     librtxproto_aidl-default \
@@ -1765,7 +1784,7 @@ PRODUCT_PACKAGES += \
     vendor.google.wireless_charger.service-V2-ndk \
     vendor_chre_atoms_log \
     vendor_chre_metrics-cpp \
-    com.google.android.widevine-11775005 \
+    com.google.android.widevine-12141839 \
     com.google.pixel.camera.hal \
     com.google.pixel.euicc.update \
     com.google.pixel.wifi.ext \
@@ -1777,15 +1796,17 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@service-darwinn-aidl.xml \
     android.hardware.oemlock-service.citadel.xml \
     android.hardware.security.keymint-service.citadel.xml \
+    android.hardware.vibrator-service.cs40l25.xml \
     android.hardware.weaver-service.citadel.xml \
-    com.google.android.imageprocessing.hal-default.xml \
-    com.google.edgetpu.dba-service.xml \
     com.google.edgetpu.tachyon-service.xml \
     dmd.xml \
     fingerprint-goodix.xml \
+    flood_control.xml \
+    manifest_aocx.xml \
     manifest_input.processor-service.xml \
     manifest_radioext.xml \
     manifest_wifi_ext_aidl.xml \
+    shared_modem_platform.xml \
     vendor.dolby.media.c2@1.0-service.xml \
     vendor.google.battery_mitigation-default.xml \
     vendor.google.edgetpu_vendor_service@1.0-service.xml \
@@ -1798,6 +1819,7 @@ PRODUCT_PACKAGES += \
     bipchmgr \
     cbd \
     dmd \
+    flood.control.hal \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
     android.hardware.bluetooth-service.bcmbtlinux \
@@ -1809,11 +1831,11 @@ PRODUCT_PACKAGES += \
     android.hardware.oemlock-service.citadel \
     android.hardware.secure_element@1.2-uicc-service \
     android.hardware.security.keymint-service.citadel \
+    android.hardware.vibrator-service.cs40l25 \
     android.hardware.weaver-service.citadel \
     battery_mitigation \
     citadel_updater \
     citadeld \
-    com.google.edgetpu.dba-service \
     com.google.edgetpu.tachyon-service \
     google.hardware.media.c2@1.0-service \
     gpsd \
@@ -1833,8 +1855,8 @@ PRODUCT_PACKAGES += \
     init.camera.set-interrupts-ownership \
     init.radio \
     modem_logging_control \
-    modem_svc_sit \
     rfsd \
+    shared_modem_platform \
     sscoredump \
     trusty_metricsd \
     twoshay \

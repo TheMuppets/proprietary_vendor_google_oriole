@@ -2,7 +2,7 @@
     Input:
         vendor/goodix/udfps/g6_aidl_trusty/fingerprint-goodix.xml
 -->
-<manifest version="8.0" type="device">
+<manifest version="9.0" type="device">
     <hal format="aidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <version>3</version>
