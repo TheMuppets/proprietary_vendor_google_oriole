@@ -16,12 +16,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/a1_hr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_hr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/a1_mk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_mk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/a1_si.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_si.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/a1mpn_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1mpn_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/airbus_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airbus_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/airbus_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airbus_fr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ais_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ais_th.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/alcom_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alcom_fi.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/alestra_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alestra_mx.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/aliv_bs.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/aliv_bs.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/altice_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/altice_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/alticeroaming_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/alticeroaming_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/andorratelecom_ad.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/andorratelecom_ad.pb \
@@ -32,13 +35,17 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/assurance_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/assurance_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/astca_as.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/astca_as.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/astoundbroadband_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/astoundbroadband_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/att4g_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att4g_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/att5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5g_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/att5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5gsa_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/att_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/att_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/attbootstrap_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/attbootstrap_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/attmvnos_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/attmvnos_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/attmvnos_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/attmvnos_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/axis_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/axis_id.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/bait_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bait_mx.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/bark_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bark_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/base_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/base_be.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/batelco_bh.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/batelco_bh.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/bell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bell_ca.pb \
@@ -59,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/cellcom_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcom_il.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/cellcom_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcom_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/cellcommno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcommno_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/cellfie_ge.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellfie_ge.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/celluarone_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/celluarone_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/chatr_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/chatr_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/chinamobile_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/chinamobile_hk.pb \
@@ -108,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/epic_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/epic_mt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/eplus_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/eplus_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/erate_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/erate_no.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/esimgo_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/esimgo_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/esn_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/esn_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/etisalat_ae.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/etisalat_ae.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/euskaltel_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/euskaltel_es.pb \
@@ -123,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/firstnetpacific_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/firstnetpacific_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/fizz_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/fizz_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/fl1_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/fl1_li.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/fliggsmobile_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/fliggsmobile_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/foroyatele_fo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/foroyatele_fo.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/free_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_fr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/free_gp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_gp.pb \
@@ -137,10 +147,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/globe_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/globe_ph.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/gomobile_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gomobile_mt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/grameenphone_bd.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/grameenphone_bd.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/gta_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gta_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/guuk_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/guuk_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_ie.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_lk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_lk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_se.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/h3g27202_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3g27202_ie.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/halebop_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/halebop_se.pb \
@@ -148,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/help_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/help_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/homobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/homobile_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/hotmobile_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/hotmobile_il.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/humane_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/humane_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ice_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ice_no.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/idea_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idea_in.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/idmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idmobile_gb.pb \
@@ -155,9 +168,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/indosat_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/indosat_id.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/inland_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/inland_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/iwireless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/iwireless_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/izziatt_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/izziatt_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/jazz_pk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jazz_pk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/jazztel_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jazztel_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/jcommobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/jcommobile_jp.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/joonto_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/joonto_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/kajeetmvno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kajeetmvno_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/kddi5gsa_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kddi5gsa_jp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/kddi_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kddi_jp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/kddimvno5gsa_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kddimvno5gsa_jp.pb \
@@ -189,12 +205,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/masmovil_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/masmovil_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/maxis_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/maxis_my.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mediacom_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mediacom_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/megamovil_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/megamovil_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/melita_mt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/melita_mt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/meo_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/meo_pt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/metropcs_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/metropcs_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/mettel_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mettel_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mobifone_vn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobifone_vn.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mobily_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mobily_sa.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/monacotelecom_mc.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/monacotelecom_mc.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_cl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_co.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_co.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/movistar_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_mx.pb \
@@ -202,12 +221,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/mvnoconnect_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/mvnoconnect_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nema_fo.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nema_fo.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/netcomgroup_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/netcomgroup_fr.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/newww_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/newww_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nexphone_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nexphone_ch.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nextech_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nextech_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/no_sim.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/no_sim.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nos_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nos_pt.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nova_gr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nova_gr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/nova_is.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nova_is.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/nymobile_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nymobile_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/o2_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_cz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/o2_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_de.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/o2_sk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_sk.pb \
@@ -232,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/orange_ro.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_ro.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/orange_sk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_sk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/oxio_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/oxio_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/paradisemobile_bm.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/paradisemobile_bm.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/partner_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/partner_il.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/pcmobilebell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/pcmobilebell_ca.pb \
@@ -251,11 +273,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/r_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/r_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/racc_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/racc_es.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rakuten_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rakuten_jp.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/reach_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/reach_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/reallycommunications_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/reallycommunications_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/redpocketatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpocketatt_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/redpockettmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpockettmo_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/republicwireless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/republicwireless_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rjio_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rjio_in.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/robi_bd.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/robi_bd.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/roccstar_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/roccstar_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/rockisland_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rockisland_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogers5g_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers5g_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogers_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/rogerswpn_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogerswpn_ca.pb \
@@ -273,9 +299,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/skt_kr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skt_kr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sky_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/sky_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_ie.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/sky_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sky_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/skylo_zz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skylo_zz.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smart_ph.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smart_ph.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smartfren_id.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartfren_id.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/smartless_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartless_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smartone_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smartone_hk.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/smarty_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smarty_gb.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/softbank_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/softbank_jp.pb \
@@ -369,12 +397,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/tstar_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tstar_tw.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/turkcell_tr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/turkcell_tr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/turktelekom_tr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/turktelekom_tr.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/tusass_gl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tusass_gl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/twm_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/twm_tw.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/u264a_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/u264a_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/u264a_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/u264a_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/u264ab_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/u264ab_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/u264ao_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/u264ao_at.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/u264ap_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/u264ap_at.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/ubixatt_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ubixatt_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/ultra_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ultra_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/umobile_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/umobile_my.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/unifi_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/unifi_my.pb \
@@ -384,8 +414,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/uqmobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile_jp.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/uscc_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uscc_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/verizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verizon_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/verizononsitelte_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verizononsitelte_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/verymobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verymobile_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/viaero_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/viaero_us.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/vianova_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vianova_it.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/videotron_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/videotron_ca.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/viettel_vn.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/viettel_vn.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vimla_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vimla_se.pb \
@@ -419,7 +451,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/vodafone_tr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_tr.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/walmart_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/walmart_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/webbing_hk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/webbing_hk.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/wim_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/wim_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/windtre_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/windtre_it.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/wom_cl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/wom_cl.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/xfinity2_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/xfinity2_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/xfinity_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/xfinity_us.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/xfinitymso_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/xfinitymso_us.pb \
@@ -428,6 +462,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/yettel_bg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_bg.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/yettel_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_hu.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/yoigo_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yoigo_es.pb \
+    vendor/google/oriole/proprietary/product/etc/CarrierSettings/yomobile_mx.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yomobile_mx.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/zain_bh.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zain_bh.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/zain_kw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zain_kw.pb \
     vendor/google/oriole/proprietary/product/etc/CarrierSettings/zain_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zain_sa.pb \
@@ -489,10 +524,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/system_ext/etc/permissions/google-ril.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/google-ril.xml \
     vendor/google/oriole/proprietary/system_ext/etc/permissions/oemrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oemrilhook.xml \
     vendor/google/oriole/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
-    vendor/google/oriole/proprietary/system_ext/etc/permissions/privapp-permlist_com.google.pixel.iwlan.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permlist_com.google.pixel.iwlan.xml \
     vendor/google/oriole/proprietary/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml \
     vendor/google/oriole/proprietary/system_ext/etc/public.libraries-google.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-google.txt \
-    vendor/google/oriole/proprietary/system_ext/etc/sysconfig/sysconfig_com.google.pixel.iwlan.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/sysconfig_com.google.pixel.iwlan.xml \
     vendor/google/oriole/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.in:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_DVT.in \
     vendor/google/oriole/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_DVT.up \
     vendor/google/oriole/proprietary/system_ext/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/DKA_RC7_EVT.up \
@@ -510,13 +543,13 @@ PRODUCT_PACKAGES += \
     libhbmsvmanager_jni \
     VZWAPNLib \
     AppDirectedSMSService \
-    CarrierSettings_signed_51.0.707712815 \
+    CarrierSettings_signed_53.0.733201674 \
     CarrierWifi \
     ConnMO \
     DCMO \
     DMService \
-    DeviceIntelligenceNetworkPrebuilt-U.32_V.7_playstore_astrea_20240725.00_RC01 \
-    DevicePersonalizationPrebuiltPixel2021-U.32_V.7_playstore_aiai_20240725.00_RC08 \
+    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
+    DevicePersonalizationPrebuiltPixel2021-bfinal_aiai_20250217.00_RC08 \
     DiagMon \
     EuiccGoogle \
     HardwareInfo \
@@ -536,7 +569,6 @@ PRODUCT_PACKAGES += \
     HbmSVManager \
     MyVerizonServices \
     OemRilService \
-    PixelIwlan \
     RilConfigService \
     ShannonIms \
     ShannonQualifiedNetworksService \
@@ -555,7 +587,6 @@ PRODUCT_PACKAGES += \
     oemrilhook \
     com.google.pixel.camera.services@1.0-service-google.xml \
     vendor.google.edgetpu_app_service@1.0-service.xml \
-    oem-iptables-init \
     vendor.google.edgetpu_app_service@1.0-service
 
 PRODUCT_PACKAGES += \
@@ -680,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.contexthub-service.generic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.contexthub-service.generic.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.edgetpu.logging@service-edgetpu-logging.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.graphics.allocator2-aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator2-aidl-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.input.processor-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.input.processor-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.neuralnetworks@service-darwinn-aidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@service-darwinn-aidl.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/android.hardware.oemlock-service.citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock-service.citadel.rc \
@@ -698,7 +730,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/google.hardware.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/google.hardware.media.c2@1.0-service.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.camera.set-interrupts-ownership.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.camera.set-interrupts-ownership.rc \
-    vendor/google/oriole/proprietary/vendor/etc/init/init.flood.control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.flood.control.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.modem_logging_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.modem_logging_control.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.shared_modem_platform_lassen.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.shared_modem_platform_lassen.rc \
@@ -706,6 +737,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/init/init.usf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.usf.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init.vendor_telephony.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor_telephony.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/init_dauntless.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_dauntless.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/memtrack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.rc \
+    vendor/google/oriole/proprietary/vendor/etc/init/pixelstats-vendor.gs101.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pixelstats-vendor.gs101.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/pktrouter.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pktrouter.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/rfsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rfsd.rc \
     vendor/google/oriole/proprietary/vendor/etc/init/rild_exynos.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild_exynos.rc \
@@ -731,6 +764,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.singlereg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.singlereg.xml \
     vendor/google/oriole/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml \
     vendor/google/oriole/proprietary/vendor/etc/permissions/com.google.android.camera.experimental2021.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.android.camera.experimental2021.xml \
+    vendor/google/oriole/proprietary/vendor/etc/pixelstats_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/pixelstats_config.json \
     vendor/google/oriole/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/google/oriole/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base.policy \
     vendor/google/oriole/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
@@ -1628,8 +1662,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/oriole/proprietary/vendor/firmware/cs40l25a_clab.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_clab.wmfw \
     vendor/google/oriole/proprietary/vendor/firmware/cs40l25a_par.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_par.bin \
     vendor/google/oriole/proprietary/vendor/firmware/cs40l25a_par.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_par.wmfw \
-    vendor/google/oriole/proprietary/vendor/firmware/cs40l26-svc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26-svc.bin \
-    vendor/google/oriole/proprietary/vendor/firmware/cs40l26.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l26.bin \
     vendor/google/oriole/proprietary/vendor/firmware/dauntless/d3m2.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/d3m2.ec.bin \
     vendor/google/oriole/proprietary/vendor/firmware/dauntless/evt.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/evt.ec.bin \
     vendor/google/oriole/proprietary/vendor/firmware/dauntless/proto11.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/proto11.ec.bin \
@@ -1650,7 +1682,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     aoc_aud_ext \
     aoc_audio_stereo_spatializer \
-    aocx-V1-ndk \
+    aocx-V2-ndk \
+    arm.graphics-V1-ndk \
     audio_adapted_info_features \
     audio_amcs_ext \
     audio_bluenote_aoc \
@@ -1665,6 +1698,8 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     audio.platform.aoc \
     audio.primary.gs101 \
+    hwcomposer.gs101 \
+    mapper.pixel \
     sound_trigger.primary.gs101 \
     vendor.google.whitechapel.audio.audioext@4.0-impl \
     vulkan.mali \
@@ -1683,8 +1718,11 @@ PRODUCT_PACKAGES += \
     libExynosC2Vp8Enc \
     libExynosC2Vp9Dec \
     libExynosC2Vp9Enc \
+    libExynosHWCService \
     libOpenCL-pixel \
     lib_aion_buffer \
+    libacryl \
+    libacryl_hdr_plugin \
     libadaptedinfo \
     libamcsextfile \
     libaoc \
@@ -1694,8 +1732,12 @@ PRODUCT_PACKAGES += \
     libbo_av1 \
     libc2filterplugin \
     libdisplaycolor \
+    libdrmresource \
     libedgetpu_client.google \
     libedgetpu_tachyon.google \
+    libexynosdisplay \
+    libexynosutils \
+    libexynosv4l2 \
     libfvsam_prm_parser \
     libgc2_av1_dec \
     libgc2_base \
@@ -1706,7 +1748,9 @@ PRODUCT_PACKAGES += \
     libgooglerilaudio \
     libgooglerilmemmonitor \
     libgpudataproducer \
+    libhwjpeg \
     libion_exynos \
+    libion_google \
     libmahalcontroller \
     libmetrics_logger \
     liboemservice \
@@ -1721,13 +1765,14 @@ PRODUCT_PACKAGES += \
     libstreset21 \
     libsueznanoappclients \
     libusf \
+    libvendorgraphicbuffer \
     sensors.usf \
     liboffloadeffect \
     libspatialaudio \
     vendor.google.battery_mitigation-V1-ndk \
     vendor.google.battery_mitigation.service_static \
     vendor.google.whitechapel.audio.audioext@4.0 \
-    vendor.google.whitechapel.audio.extension-V4-ndk \
+    vendor.google.whitechapel.audio.extension-V5-ndk \
     vendor.radio.base \
     vendor.radio.protocol.sit.base \
     vendor.radio.protocol.sit.json \
@@ -1743,13 +1788,14 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver2-impl.nos \
     aoc_aconfig_flags_c_lib \
     biometricsuez \
-    com.google.edgetpu.tachyon-V1-ndk \
+    com.google.edgetpu.tachyon-ndk \
     com.google.edgetpu_vendor_service-V2-ndk_vendor \
     com.google.hardware.biometrics.fingerprint.fingerprint-ext-V1-ndk \
     com.google.input-V2-ndk \
-    com.google.input-V4-ndk \
+    com.google.input-V5-ndk \
     fp_utils \
     android.hardware.gnss@2.1-impl-google \
+    android.hardware.graphics.allocator-aidl-impl \
     android.hardware.vibrator-impl.cs40l25 \
     flp.default \
     gps.default \
@@ -1764,9 +1810,11 @@ PRODUCT_PACKAGES += \
     libedgetpu_util \
     libgf_hal \
     libgril_oem-google \
+    libmemtrack-pixel \
     libmodem_svc_proto_legacy_soong \
     libnos_citadeld_proxy \
     liboemcrypto \
+    libpixelstats \
     librtxproto_aidl-default \
     libsit_oem \
     libsit_oem_proto \
@@ -1779,12 +1827,13 @@ PRODUCT_PACKAGES += \
     libwlcproto_aidl-default \
     vendor.google.audiometricext@1.0 \
     vendor.google.bluetooth_ext-V1-ndk \
+    vendor.google.bluetooth_ext-V3-ndk \
     vendor.google.google_battery-V3-ndk \
-    vendor.google.wireless_charger-V2-ndk \
+    vendor.google.wireless_charger-V3-ndk \
     vendor.google.wireless_charger.service-V2-ndk \
     vendor_chre_atoms_log \
     vendor_chre_metrics-cpp \
-    com.google.android.widevine-12141839 \
+    com.google.android.widevine-13130248 \
     com.google.pixel.camera.hal \
     com.google.pixel.euicc.update \
     com.google.pixel.wifi.ext \
@@ -1801,11 +1850,13 @@ PRODUCT_PACKAGES += \
     com.google.edgetpu.tachyon-service.xml \
     dmd.xml \
     fingerprint-goodix.xml \
-    flood_control.xml \
+    manifest.xml \
     manifest_aocx.xml \
+    manifest_gralloc_aidl2.xml \
     manifest_input.processor-service.xml \
     manifest_radioext.xml \
-    manifest_wifi_ext_aidl.xml \
+    memtrack.xml \
+    pixel-display-default.xml \
     shared_modem_platform.xml \
     vendor.dolby.media.c2@1.0-service.xml \
     vendor.google.battery_mitigation-default.xml \
@@ -1819,14 +1870,15 @@ PRODUCT_PACKAGES += \
     bipchmgr \
     cbd \
     dmd \
-    flood.control.hal \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
     android.hardware.bluetooth-service.bcmbtlinux \
     android.hardware.contexthub-service.generic \
     android.hardware.edgetpu.logging@service-edgetpu-logging \
     android.hardware.gnss@2.1-service-brcm \
+    android.hardware.graphics.allocator-V2-service \
     android.hardware.input.processor-service \
+    android.hardware.memtrack-service.pixel \
     android.hardware.neuralnetworks@service-darwinn-aidl \
     android.hardware.oemlock-service.citadel \
     android.hardware.secure_element@1.2-uicc-service \
@@ -1855,6 +1907,7 @@ PRODUCT_PACKAGES += \
     init.camera.set-interrupts-ownership \
     init.radio \
     modem_logging_control \
+    pixelstats-vendor \
     rfsd \
     shared_modem_platform \
     sscoredump \
