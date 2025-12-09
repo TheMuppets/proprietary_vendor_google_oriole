@@ -1,6 +1,6 @@
 [build-info]
-	date = 2025-07-08T02:29:57+0000
+	date = 2025-10-30T03:15:28+0000
 	user = android-build
-	uname = "Linux r-abefe6b4c3ef0adb-5qzm 5.15.0-1013-gcp #18~20.04.1-Ubuntu SMP Sun Jul 3 08:20:07 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux"
-	modem = bd2d6efe224d84b334187b40c0e237fe5c7b2e42
-	config = a5c0420c2618710c1ed1edfe4a9809801f7f7218
+	uname = "Linux r-abefe6b4c3ef0adb-77f3 5.15.0-1013-gcp #18~20.04.1-Ubuntu SMP Sun Jul 3 08:20:07 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux"
+	modem = ff9ccdee15facffbbf045c379f1ce8ddae0ed45a
+	config = 2e9d9a7a9f76f1952de0d1c8081b73b546cf1a6f

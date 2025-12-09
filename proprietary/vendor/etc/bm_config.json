@@ -1,0 +1,18 @@
+{
+    "AdaptiveConfig":[
+        {
+            "Name": "dvfs_ramp_enable",
+            "Type": "instruction",
+            "Source": "cycle_count",
+            "Values": [1],
+            "Indexs": [800,9999]
+        },
+        {
+            "Name": "dvfs_rel",
+            "Type": "triggered_rel",
+            "Source": "cycle_count",
+            "Values": [300],
+            "Indexs": [800,9999]
+        }
+    ]
+}

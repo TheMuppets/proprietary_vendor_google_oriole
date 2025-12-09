@@ -40,8 +40,6 @@ on init
 
     start vendor.keymaster-3-0
 
-    # ZRAM setup
-    write /sys/block/zram0/comp_algorithm lz77eh
     write /proc/sys/vm/page-cluster 0
 
     # Some user code relies on ro.boot.hardware.revision
@@ -258,6 +256,10 @@ on init
 
     # Set boost_adpf_prio, -1 by default
     write /proc/vendor_sched/boost_adpf_prio ${persist.device_config.vendor_system_native_boot.boost_adpf_prio:--1}
+
+on load_persist_props_action
+    # ZRAM setup
+    write /sys/block/zram0/comp_algorithm ${persist.device_config.vendor_system_native_boot.comp_algorithm:-lz77eh}
 
 on init && property:ro.boot.hw.soc.rev=0
     setprop vendor.powerhal.config powerhint_a0.json
@@ -594,9 +596,7 @@ on property:init.svc.vendor.charger=running
     write /sys/devices/system/cpu/cpu7/online 0
 
 on property:sys.boot_completed=1
-    # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.${ro.board.platform}
-    write /proc/sys/vm/swappiness 60
 
     # Force empty CMA
     write /sys/kernel/vendor_mm/cma/farawimg/force_empty 1
@@ -733,18 +733,6 @@ on post-fs-data
     chown system system /sys/kernel/metrics/thermal/tr_by_group/spmic/stats_reset
 
 on property:vendor.thermal.link_ready=1
-    # BCL
-    write /sys/devices/virtual/pmic/mitigation/clock_ratio/tpu_light_clk_ratio 0x80041c3
-    write /sys/devices/virtual/pmic/mitigation/clock_ratio/cpu2_light_clk_ratio 0xfff041c3
-    write /sys/devices/virtual/pmic/mitigation/clock_ratio/gpu_heavy_clk_ratio 0xfff04385
-    write /sys/devices/virtual/pmic/mitigation/clock_ratio/tpu_heavy_clk_ratio 0xfff041c1
-    write /sys/devices/virtual/pmic/mitigation/clock_ratio/cpu2_heavy_clk_ratio 0xfff041c0
-    write /sys/devices/virtual/pmic/mitigation/triggered_lvl/smpl_lvl 3100
-    write /sys/devices/virtual/pmic/mitigation/triggered_lvl/ocp_cpu1_lvl 7000
-    write /sys/devices/virtual/pmic/mitigation/triggered_lvl/soft_ocp_cpu1_lvl 7000
-    write /sys/devices/virtual/pmic/mitigation/clock_div/tpu_clk_div 0x1
-    write /sys/devices/virtual/pmic/mitigation/clock_div/gpu_clk_div 0x1
-    write /sys/devices/virtual/pmic/mitigation/clock_div/cpu2_clk_div 0x1
     # Thermal
     chown system system /dev/thermal/tz-by-name/quiet_therm/trip_point_0_temp
     chown system system /dev/thermal/tz-by-name/quiet_therm/trip_point_0_hyst
