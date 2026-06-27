@@ -8,3 +8,4 @@ on early-boot
     chown root system /sys/module/trusty_virtio/parameters/use_high_wq
     chown root system /sys/module/trusty_core/parameters/use_high_wq
     chown system system /dev/fth_fd
+    mkdir /data/vendor/fingerprint 0770 system system

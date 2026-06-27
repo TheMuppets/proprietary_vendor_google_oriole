@@ -231,12 +231,14 @@
 /sys/class/typec/port0 data_role                                                         664 root system
 /sys/class/typec/port0 port_type                                                         664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 contaminant_detection                664 root system
+/sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 manual_bc12_detect                   664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 usb_limit_accessory_current          664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 usb_limit_accessory_enable           664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 usb_limit_sink_current               664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 usb_limit_sink_enable                664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 usb_limit_source_enable              664 root system
 /sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 update_sdp_enum_timeout              664 root system
+/sys/devices/platform/10d50000.hsi2c/i2c-12/12-0025 disable_sdp_enum_timeout             664 root system
 /sys/devices/platform/11110000.usb dwc3_exynos_otg_b_sess                                664 root system
 /sys/devices/platform/11110000.usb dwc3_exynos_otg_id                                    664 root system
 /sys/devices/platform/11110000.usb usb_data_enabled                                      664 root system

@@ -1,3 +1,12 @@
+# Service to set sysprop based on the aconfig flag
+service usb_accessory_utils /vendor/bin/usb_accessory_utils
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+    seclabel u:r:vendor_usb_aoa_helper:s0
+
 on early-boot
     mkdir /config/usb_gadget/g1
     mkdir /config/usb_gadget/g1/strings/0x409
@@ -14,13 +23,19 @@ on early-boot
     mkdir /config/usb_gadget/g1/functions/ffs.adb 0770 shell shell
     mkdir /config/usb_gadget/g1/functions/ffs.mtp
     mkdir /config/usb_gadget/g1/functions/ffs.ptp
+    mkdir /config/usb_gadget/g1/functions/ffs.ctrl
+    mkdir /config/usb_gadget/g1/functions/ffs.aoa
     mkdir /dev/usb-ffs 0775 shell shell
     mkdir /dev/usb-ffs/adb 0770 shell shell
     mkdir /dev/usb-ffs/mtp 0770 mtp mtp
     mkdir /dev/usb-ffs/ptp 0770 mtp mtp
+    mkdir /dev/usb-ffs/ctrl 0770 system system
+    mkdir /dev/usb-ffs/aoa 0770 system system
     mount functionfs adb /dev/usb-ffs/adb rmode=0770,fmode=0660,uid=2000,gid=2000,no_disconnect=1
     mount functionfs mtp /dev/usb-ffs/mtp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
     mount functionfs ptp /dev/usb-ffs/ptp rmode=0770,fmode=0660,uid=1024,gid=1024,no_disconnect=1
+    mount functionfs ctrl /dev/usb-ffs/ctrl rmode=0770,fmode=0660,uid=1000,gid=1000,no_disconnect=1
+    mount functionfs aoa /dev/usb-ffs/aoa rmode=0770,fmode=0660,uid=1000,gid=1000,no_disconnect=1
     setprop sys.usb.mtp.device_type 3
     setprop sys.usb.mtp.batchcancel true
     symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
@@ -33,6 +48,9 @@ on early-boot
 
     # accessory function
     mkdir /config/usb_gadget/g1/functions/accessory.gs2
+
+    # Start the usb_accessory_utils for dynamic sys prop
+    start usb_accessory_utils
 
     # audio_source function
     mkdir /config/usb_gadget/g1/functions/audio_source.gs3
@@ -229,6 +247,7 @@ on early-boot
     chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/uncompressed/u/bmaControls
     chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/uncompressed/u/bmInterlaceFlags
     chmod 664 /config/usb_gadget/g1/functions/uvc.0/streaming/uncompressed/u/guidFormat
+    chmod 664 /sys/module/libcomposite/parameters/android_kernel_aoa_enabled
 
     # chown file/folder permission
     chown system system /config/usb_gadget/
@@ -256,6 +275,8 @@ on early-boot
     chown system system /config/usb_gadget/g1/functions/ffs.adb
     chown system system /config/usb_gadget/g1/functions/ffs.mtp
     chown system system /config/usb_gadget/g1/functions/ffs.ptp
+    chown system system /config/usb_gadget/g1/functions/ffs.ctrl
+    chown system system /config/usb_gadget/g1/functions/ffs.aoa
     chown system system /config/usb_gadget/g1/functions/midi.gs5
     chown system system /config/usb_gadget/g1/functions/midi.gs5/buflen
     chown system system /config/usb_gadget/g1/functions/midi.gs5/id
@@ -453,6 +474,7 @@ on early-boot
     chown system system /config/usb_gadget/g1/strings/0x409/manufacturer
     chown system system /config/usb_gadget/g1/strings/0x409/product
     chown system system /config/usb_gadget/g1/strings/0x409/serialnumber
+    chown system system /sys/module/libcomposite/parameters/android_kernel_aoa_enabled
     setprop vendor.usb.functions.ready 1
 
 on boot
@@ -485,13 +507,11 @@ on charger
     write /config/usb_gadget/g1/bcdDevice 0x0510
     mkdir /config/usb_gadget/g1/functions/midi.gs5
     symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
-    setprop sys.usb.controller "11110000.dwc3"
-    setprop sys.usb.configfs 1
 
 on property:ro.bootmode=charger
     setprop sys.usb.config charger
 
-on property:sys.usb.config=charger && property:sys.usb.configfs=1
+on property:sys.usb.config=charger && property:sys.usb.configfs=1 && property:sys.usb.controller=*
     write /config/usb_gadget/g1/idVendor 0x18d1
     write /config/usb_gadget/g1/idProduct 0x4eea
     write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "midi"
@@ -506,6 +526,6 @@ on property:vendor.usb.contaminantdisable=true
 on property:ro.bootmode=usbuwb
     setprop persist.vendor.usb.usbradio.config uwb_acm
 
-# WAR for kernel 5.10 with CONFIG_USB_DUMMY_HCD enabled
-on property:sys.usb.controller=dummy_udc.0
-    setprop sys.usb.controller "11110000.dwc3"
+# USB Userspace AOA Enabled
+on property:ro.vendor.usb.userspace.aoa.enabled=*
+    setprop ro.usb.userspace.aoa.enabled ${ro.vendor.usb.userspace.aoa.enabled}
