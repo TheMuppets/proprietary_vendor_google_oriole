@@ -1,18 +1,32 @@
 {
-    "AdaptiveConfig":[
-        {
-            "Name": "dvfs_ramp_enable",
-            "Type": "instruction",
-            "Source": "cycle_count",
-            "Values": ["1"],
-            "Indexs": [800,9999]
+    "AdaptiveConfig": {
+        "SeverityWeights": {
+            "MEDIUM": 1,
+            "NONE": 0
         },
-        {
-            "Name": "dvfs_rel",
-            "Type": "triggered_rel",
-            "Source": "cycle_count",
-            "Values": ["300"],
-            "Indexs": [800,9999]
+        "Sources": [
+            {
+                "Name": "cycle_count",
+                "RangeMap": [
+                    { "Range": [800, 9999], "Output": "MEDIUM" },
+                    { "Range": [0, 799], "Output": "NONE" }
+                ]
+            }
+        ],
+        "SeverityToOutputMap": {
+            "MEDIUM": [
+                {
+                    "Name": "dvfs_ramp_enable",
+                    "Type": "instruction",
+                    "Value": "1"
+                },
+                {
+                    "Name": "dvfs_rel",
+                    "Type": "triggered_rel",
+                    "Value": "300"
+                }
+            ],
+            "NONE": []
         }
-    ]
+    }
 }
